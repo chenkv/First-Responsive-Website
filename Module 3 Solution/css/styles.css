@@ -1,0 +1,115 @@
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Navigation Bar */
+#header-nav {
+    background-color: rgb(170, 170, 170);
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px !important;
+}
+
+.navbar-brand a {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#dropdown-menu-button {
+    margin-top: 15px;
+}
+
+#nav-list li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+#beef, #sushi {
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    #header-nav {
+        border-bottom: 3px solid black;
+    }
+}
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: rgb(204, 204, 204);
+    }
+
+    .navbar-header {
+        border-bottom: 3px solid black;
+    }
+
+    #collapsable-nav {
+        border-bottom: 3px solid black;
+    }
+}
+
+/* Body */
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+
+.row {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+
+.col-xs-12 {
+    height: 2000px;
+    background: rgb(170, 170, 170);
+    padding-left: 20px;
+    padding-right: 20px;
+}
